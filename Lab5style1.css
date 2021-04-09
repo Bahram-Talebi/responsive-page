@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 480px){
+   body > aside{
+        
+       display: none;
+    }
+    nav.horizontal a{
+        display: block;
+         }
+    section.section1{
+        width: 68%;
+        display: inline-block;
+        padding: 3%;
+        margin: 3%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    section.section2{
+        width: 68%;
+        display: inline-block;
+        padding: 3%;
+        margin: 3%;
+        text-align: center;
+        margin-left: 15%;
+    }
+    section.section3{
+        width: 68%;
+        display: inline-block;
+        padding: 3%;
+        margin: 3%;
+        text-align: center;
+        margin-left: 15%;
+    }
+}
+@media only screen and (min-width: 481px){
+    nav.horizontal a{
+        display: block;
+         }
+         article{
+        
+            width: 80%;
+            float: left;
+        }
+        aside{
+        
+            padding-bottom: 50.1%;
+            text-align: center;
+        }
+        section{
+            display: inline-block;
+            text-align: center;
+            width: 15%;
+            padding-top: 5%;
+            padding: 2%;
+            padding-right: 5%;
+            margin-left: 5%;
+            margin: 5%;
+        }
+        section.section1{
+            width: 25%;
+        }
+        section.section2{
+            width: 25%;
+        }
+        section.section3{
+            width: 68%;
+        }
+
+
+
+
+    }
+   
+
+
+@media only screen and (min-width: 769px){
+
+    nav.horizontal a{
+        display: inline-block;
+        width :25%; 
+        /* margin-left: auto;
+        margin-right: auto;
+        width: auto; */
+    }
+    article{
+        
+        width: 80%;
+        float: left;
+    }
+    section{
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        padding-top: 5%;
+        padding: 2%;
+        padding-right: 5%;
+        margin-left: 5%;
+        margin: 5%;
+    }
+    aside{
+        
+        padding-bottom: 36.2%;
+        text-align: center;
+    }
+    section.section1{
+        width: 15%;
+    }
+    section.section2{
+        width: 15%;
+    }
+    section.section3{
+        width: 15%;
+    }
+}
